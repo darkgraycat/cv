@@ -1,0 +1,23 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass scss/main.css:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkgraycat/cv.git"
+  },
+  "author": "darkgraycat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darkgraycat/cv/issues"
+  },
+  "homepage": "https://github.com/darkgraycat/cv#readme",
+  "dependencies": {
+    "sass": "^1.32.8"
+  }
+}
