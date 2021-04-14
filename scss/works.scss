@@ -3,27 +3,25 @@
 }
 
 .work-table {
-  // table-layout: fixed;
-  width: 80%;
-  max-width: 800px;
+  width: 100%;
   text-align: left;
   
-  
   border-collapse: collapse;
-  background-color: #ddf;
+  background-color: #fff;
 
   th, td {
-    padding: 10px;
+    padding: 4px;
   }
 
   tr:nth-child(even) {
-    background-color: #dfd;
+    background-color: #f8f8f8;
   }
 
   thead {
-    background: #aaf;
+    background: #222;
     color: #fff;
     border-top: 20px solid #fff;
+    font-size: 1.2rem;
   }
 
   ul {
