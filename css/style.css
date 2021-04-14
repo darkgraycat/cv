@@ -23,6 +23,7 @@
 .header__about {
   max-width: 400px;
 }
+
 .skills {
   display: flex;
   flex-direction: row;
