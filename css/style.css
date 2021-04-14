@@ -1,77 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
-.header {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  gap: 30px;
-  width: 100%;
-}
-.header__prof, .header__name {
-  font-weight: bold;
-  font-size: large;
-  text-align: center;
-}
-.header__img {
-  border-radius: 50%;
-  width: 200px;
-}
-.header__about {
-  max-width: 400px;
-}
-
-.skills {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  gap: 10px;
-  width: 100%;
-}
-.skills ul {
-  list-style-type: square;
-  margin-left: 20px;
-}
-
-.works {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.work-table {
-  width: 100%;
-  text-align: left;
-  border-collapse: collapse;
-  background-color: #fff;
-}
-.work-table th, .work-table td {
-  padding: 4px;
-}
-.work-table tr:nth-child(even) {
-  background-color: #f8f8f8;
-}
-.work-table thead {
-  background: #222;
-  color: #fff;
-  border-top: 20px solid #fff;
-  font-size: 1.2rem;
-}
-.work-table ul {
-  margin-left: 20px;
-  list-style-type: square;
-}
-
 html, body {
   width: 100%;
   height: auto;
@@ -91,29 +18,10 @@ html, body {
   max-width: 900px;
 }
 
-.highlight {
-  font-size: large;
-  background-color: #222;
-  color: #fff;
-  padding: 4px 8px;
-  margin: 10px 0px;
-  min-width: 200px;
-  min-width: 200px;
-}
-
 a {
   text-decoration: none;
   color: #44f;
   white-space: nowrap;
-}
-
-p {
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.hidden {
-  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

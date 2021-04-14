@@ -25,22 +25,8 @@ html, body {
   max-width: 900px;
 }
 
-.highlight {
-  @include highlight;
-  min-width: 200px;
-}
-
 a {
   text-decoration: none;
   color: #44f;
   white-space: nowrap;
-}
-
-p {
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.hidden {
-  display: none;
 }
