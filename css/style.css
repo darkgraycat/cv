@@ -5,8 +5,24 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 30px;
+  width: 100%;
 }
-
+.header__prof, .header__name {
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+.header__img {
+  border-radius: 50%;
+  width: 200px;
+}
+.header__about {
+  max-width: 400px;
+}
 .skills {
   display: flex;
   flex-direction: row;
@@ -80,6 +96,7 @@ html, body {
   color: #fff;
   padding: 4px 8px;
   margin: 10px 0px;
+  min-width: 200px;
   min-width: 200px;
 }
 

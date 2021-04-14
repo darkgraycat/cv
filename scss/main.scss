@@ -27,6 +27,7 @@ html, body {
 
 .highlight {
   @include highlight;
+  min-width: 200px;
 }
 
 a {
