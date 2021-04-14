@@ -24,7 +24,7 @@ a {
 .main {
   margin: 0 auto;
   width: 100%;
-  max-width: 900px;
+  max-width: 800px;
 }
 
 .title {
@@ -36,5 +36,28 @@ a {
 }
 
 .container {
-  @include flex(column, flex-start, flex-start)
+  @include flex(column, flex-start, flex-start);
+}
+
+.header {
+  @include flex(row, space-between, flex-start);
+  gap: 20px;
+  &__container {
+    // flex-wrap: wrap;
+  }
+
+  &__title {}
+  &__name {}
+  &__img {
+    width: 200px;
+    height: auto;
+  }
+}
+
+.skills {
+  display: none;
+}
+
+.works {
+  display: none;
 }

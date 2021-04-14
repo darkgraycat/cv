@@ -21,7 +21,7 @@ a {
 .main {
   margin: 0 auto;
   width: 100%;
-  max-width: 900px;
+  max-width: 800px;
 }
 
 .title {
@@ -34,8 +34,29 @@ a {
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+.header__img {
+  width: 200px;
+  height: auto;
+}
+
+.skills {
+  display: none;
+}
+
+.works {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
