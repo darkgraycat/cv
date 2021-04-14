@@ -19,14 +19,26 @@ html, body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #44f;
+  white-space: nowrap;
+}
+
 .main {
   margin: 0 auto;
   width: 100%;
   max-width: 900px;
 }
 
-a {
-  text-decoration: none;
-  color: #44f;
-  white-space: nowrap;
+.title {
+  background-color: #222;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.container {
+  @include flex(column, flex-start, flex-start)
 }
