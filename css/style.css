@@ -23,11 +23,27 @@
   align-items: center;
 }
 
-.work__name {
-  width: 30%;
+.work-table {
+  width: 80%;
+  max-width: 800px;
+  text-align: left;
+  border-collapse: collapse;
+  background-color: #ddf;
 }
-.work__content {
-  width: 60%;
+.work-table th, .work-table td {
+  padding: 10px;
+}
+.work-table tr:nth-child(even) {
+  background-color: #dfd;
+}
+.work-table thead {
+  background: #aaf;
+  color: #fff;
+  border-top: 20px solid #fff;
+}
+.work-table ul {
+  margin-left: 20px;
+  list-style-type: square;
 }
 
 html, body {
