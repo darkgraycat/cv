@@ -1,7 +1,42 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.works {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+html, body {
+  width: 100%;
+  height: auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
   margin: 0;
   padding: 0;
-  background-color: bisque;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
