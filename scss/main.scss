@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
 @import 'mixins.scss';
 @import 'header.scss';
 @import 'skills.scss';
 @import 'works.scss';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 
 html, body {
@@ -19,4 +20,14 @@ html, body {
 
 .main {
   margin: 0 auto;
+}
+
+.highlight {
+  @include highlight;
+}
+
+a {
+  text-decoration: none;
+  color: #44f;
+  white-space: nowrap;
 }

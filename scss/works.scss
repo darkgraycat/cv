@@ -1,5 +1,16 @@
-
 .works {
-  @include flex
+  @include flex;
+}
+
+.work {
+
+  &__name {
+    width: 30%;
+  }
+
+  &__content {
+    width: 60%;
+  }
+
 }
 

@@ -5,3 +5,11 @@
   justify-content: center;
   align-items: center;
 }
+
+@mixin highlight {
+  font-size: large;
+  background-color: #222;
+  color: #fff;
+  border: 2px solid #fff;
+  outline: 2px solid #222;
+}
