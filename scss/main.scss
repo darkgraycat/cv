@@ -27,8 +27,13 @@ a {
   font-size: 14px;
   line-height: 1.4rem;
 
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
     font-size: 12px;
+    max-width: 320px;
+    * {
+      flex-wrap: wrap;
+      width: 100%;
+    }
   }
 }
 
