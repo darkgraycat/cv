@@ -24,16 +24,22 @@ a {
   width: 100%;
   max-width: 800px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.4rem;
+
+  @media (max-width: 780px) {
+    font-size: 14px;
+    max-width: 600px;
+    * {
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
 
   @media (max-width: 400px) {
     font-size: 12px;
     max-width: 320px;
-    * {
-      flex-wrap: wrap;
-      width: 100%;
-    }
   }
 }
 
@@ -42,7 +48,8 @@ a {
   color: #fff;
   font-size: 1.2rem;
   font-weight: bold;
-  padding: 10px;
+  padding: 6px;
+  margin-top: 10px;
   width: 100%;
 }
 
@@ -52,10 +59,8 @@ a {
 
 .header {
   @include flex(row, space-between, flex-start);
-  gap: 20px;
-  &__container {
-  }
-
+  gap: 10px;
+  &__container {}
   &__title {}
   &__name {
     font-weight: bold;
@@ -64,11 +69,21 @@ a {
   &__img {
     width: 200px;
     height: auto;
+    margin: 0 auto;
   }
 }
 
 .skills {
-  display: none;
+  @include flex(row, space-between, flex-start);
+  gap: 10px;
+  &__container {
+    width: 100%;
+  }
+  &__title {}
+  &__list {
+    list-style: square;
+    margin-left: 20px;
+  }
 }
 
 .works {
