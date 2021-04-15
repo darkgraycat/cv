@@ -23,7 +23,7 @@ a {
   font-size: 16px;
   line-height: 1.4rem;
 }
-@media (max-width: 780px) {
+@media (max-width: 80px) {
   .main {
     font-size: 14px;
     max-width: 600px;
@@ -34,17 +34,10 @@ a {
     width: 100%;
   }
 }
-@media (max-width: 400px) {
-  .main {
-    font-size: 12px;
-    max-width: 320px;
-  }
-}
-
 .title {
   background-color: #222;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   padding: 6px;
   margin-top: 10px;
@@ -83,7 +76,10 @@ a {
   gap: 10px;
 }
 .skills__container {
-  width: 100%;
+  flex: 1 1 30%;
+}
+.skills > :nth-child(3) {
+  flex: 1 1 40%;
 }
 .skills__list {
   list-style: square;

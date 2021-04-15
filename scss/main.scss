@@ -26,7 +26,7 @@ a {
   font-size: 16px;
   line-height: 1.4rem;
 
-  @media (max-width: 780px) {
+  @media (max-width: 80px) {
     font-size: 14px;
     max-width: 600px;
     * {
@@ -37,15 +37,15 @@ a {
   }
 
   @media (max-width: 400px) {
-    font-size: 12px;
-    max-width: 320px;
+    // font-size: 12px;
+    // max-width: 320px;
   }
 }
 
 .title {
   background-color: #222;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   padding: 6px;
   margin-top: 10px;
@@ -76,7 +76,11 @@ a {
   @include flex(row, space-between, flex-start);
   gap: 10px;
   &__container {
-    width: 100%;
+    flex: 1 1 30%;
+    
+  }
+  >:nth-child(3) {
+    flex: 1 1 40%;
   }
   &__title {}
   &__list {
