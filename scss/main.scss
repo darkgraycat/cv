@@ -5,8 +5,6 @@
 html, body {
   width: 100%;
   height: auto;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
 }
 
 * {
@@ -25,6 +23,13 @@ a {
   margin: 0 auto;
   width: 100%;
   max-width: 800px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.4rem;
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
 }
 
 .title {
@@ -33,6 +38,7 @@ a {
   font-size: 1.2rem;
   font-weight: bold;
   padding: 10px;
+  width: 100%;
 }
 
 .container {
@@ -43,11 +49,13 @@ a {
   @include flex(row, space-between, flex-start);
   gap: 20px;
   &__container {
-    // flex-wrap: wrap;
   }
 
   &__title {}
-  &__name {}
+  &__name {
+    font-weight: bold;
+    margin-left: 10px;
+  }
   &__img {
     width: 200px;
     height: auto;
