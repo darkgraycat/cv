@@ -99,6 +99,7 @@ a {
 }
 .works__container {
   width: 100%;
+  padding-bottom: 20px;
 }
 .works__container > :nth-child(even) {
   background-color: #eef;
