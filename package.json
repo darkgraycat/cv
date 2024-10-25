@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sass scss/main.scss:css/style.css --watch"
+    "start": "npm run serve & npm run watch",
+    "serve": "npx live-server --port=8080 --watch=.",
+    "watch": "sass scss/main.scss:css/style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/darkgraycat/cv#readme",
   "dependencies": {
     "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
   }
 }
