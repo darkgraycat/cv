@@ -1,171 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>CV</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>CV</title>
+    </head>
+    
+    <body>
+        <main class="main">
+    
+            <!-- header -->
+            <div class="header">
+                <div class="header__container container">
+                    <div class="header__title title">Pavlo Buryanov</div>
+                    <div class="header__name">Backend Engineer</div>
+                    <img class="header__img" src="img/photo2.png" alt="<photo>">
+                </div>
+                <div class="header__container container">
+                    <div class="header__title title">Contact me</div>
+                    <p>Phone: &nbsp;&nbsp;&nbsp;<a href="tel:+380687671390">+38-068-767-13-90</a></p>
+                    <p>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:jburyanov@gmail.com">jburyanov@gmail.com</a></p>
+                    <p>LinkedIn: <a href="https://linkedin.com/in/pavlo-buryanov">linkedin.com/in/pavlo-buryanov</a></p>
+                    <p>Github: &nbsp;&nbsp;&nbsp;<a href="https://github.com/darkgraycat">https://github.com/darkgraycat</a>
+                    </p>
+                    <div class="header__title title">About me</div>
+                    <p>
+                        Results-driven backend developer with over 3 years of experience specializing in cloud development.
+                        Known for quickly adapting to new technologies and delivering efficient solutions to complex
+                        technical challenges. 
+                        Proficient in development tools and best practices, including Vim(btw) for enhanced
+                        productivity.
+                        I believe in simple and robust software.
+                    </p>
+                    <p>
+                        <b>Languages:</b><br> Ukranian, English
+                    </p>
+                </div>
+            </div>
+    
+            <!-- works -->
+            <div class="works">
 
-<body>
-  <main class="main">
+                <div class="works__title title">
+                    Associates and Organization Management System
+                </div>
+                <div class="works__container container">
+                    <div class="works__row">
+                        <p>Description</p>
+                        <p>Core component of the application, comprising two primary microservices and background workers, responsible for managing associate profiles, organizational profiles, and their interrelations.</p>
+                    </div>
+                    <div class="works__row">
+                        <p>Project role</p>
+                        <p>Backend Engineer</p>
+                    </div>
+                    <div class="works__row">
+                        <p>Responsibilities</p>
+                        <ul class="works__list">
+                            <li>Develop and maintain APIs to handle data transactions securely and efficiently.</li>
+                            <li>Developed and optimized database queries, implemented caching solutions.</li>
+                            <li>Monitored system performance, implemented logging and alerting.</li>
+                        </ul>
+                    </div>
+                    <div class="works__row">
+                        <p>Stack</p>
+                        <p>NodeJS, Express, MySQL, Redis, GCP, PubSub, DataDog</p>
+                    </div>
+                </div>
+    
+                <div class="works__title title">
+                    Integration with Franchise Management Platform
+                </div>
+                <div class="works__container container">
+                    <div class="works__row">
+                        <p>Description</p>
+                        <p>Implemented synchronization processes to ensure data consistency and integrity across systems, conducting root cause analysis to resolve integration issues and enhance platform reliability.</p>
+                    </div>
+                    <div class="works__row">
+                        <p>Project role</p>
+                        <p>Backend Engineer</p>
+                    </div>
+                    <div class="works__row">
+                        <p>Responsibilities</p>
+                        <ul class="works__list">
+                            <li>Developed and maintained data synchronization processes to ensure up-to-date and accurate data across platforms.</li>
+                            <li>Performed root cause analysis to diagnose and resolve integration issues promptly.</li>
+                            <li>Monitored data integrity, implementing checks and safeguards to maintain consistent and reliable information flow.</li>
+                        </ul>
+                    </div>
+                    <div class="works__row">
+                        <p>Stack</p>
+                        <p>NodeJS, Express, Redis, GCP, PubSub</p>
+                    </div>
+                </div>
 
-    <!-- header -->
-    <div class="header">
-      <div class="header__container container">
-        <div class="header__title title">Pavel Buryanov</div>
-        <div class="header__name">WebUI Developer</div>
-        <img class="header__img" src="img/photo.jpg" alt="">
-      </div>
-      <div class="header__container container">
-        <div class="header__title title">Contact me</div>
-        <p>Phone: &nbsp;&nbsp;&nbsp;<a href="tel:+380687671390">+38-068-767-13-90</a></p>
-        <p>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:jburyanov@gmail.com">jburyanov@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/pavel-buryanov">linkedin.com/in/pavel-buryanov</a></p>
-        <p>Github: &nbsp;&nbsp;&nbsp;<a href="https://github.com/darkgraycat">https://github.com/darkgraycat</a></p>
-        <div class="header__title title">About me</div>
-        <p>
-          I am a strong JavaScript programmer who understands OOP principles, design patterns and have experience
-          writing code in strongly typed languages.
-        </p>
-        <p>
-          <b>Languages:</b><br> Russian, Ukranian (Native), English (Intermediate)
-        </p>
-      </div>
-    </div>
+                <div class="works__title title">
+                    Developed a component-based skeleton for profit share calculations
+                </div>
+                <div class="works__container container">
+                    <div class="works__row">
+                        <p>Description</p>
+                        <p>Built a near-MVP skeleton for real-time profit share calculations using Socket.IO, with full end-to-end (E2E) test coverage.</p>
+                    </div>
+                    <div class="works__row">
+                        <p>Project role</p>
+                        <p>Backend Engineer</p>
+                    </div>
+                    <div class="works__row">
+                        <p>Responsibilities</p>
+                        <ul class="works__list">
+                            <li>Implemented real-time communication features using Socket.IO.</li>
+                            <li>Analyzed requirements to propose effective design solutions for the application.</li>
+                            <li>Created and executed E2E tests.</li>
+                        </ul>
+                    </div>
+                    <div class="works__row">
+                        <p>Stack</p>
+                        <p>NodeJS, Socket.IO</p>
+                    </div>
+                </div>
 
-    <!-- skills -->
-    <div class="skills">
-      <div class="skills__container container">
-        <div class="skills__title title">Hard skills</div>
-        <ul class="skills__list">
-          <li>React</li>
-          <li>ES6</li>
-          <li>Sass</li>
-          <li>FlexBox</li>
-          <li>BEM</li>
-          <li>Git</li>
-          <li>Webpack</li>
-        </ul>
+                <div class="works__title title">
+                    Open source lightweight library for splitting Express routes
+                    <a href="https://www.npmjs.com/package/split-route">link</a>
+                </div>
+                <div class="works__container container">
+                    <div class="works__row">
+                        <p>Description</p>
+                        <p>First implemented that proposed solution to reduce code duplication and enhance maintainability of application.</p>
+                    </div>
+                    <div class="works__row">
+                        <p>Project role</p>
+                        <p>Backend Engineer</p>
+                    </div>
+                    <div class="works__row">
+                        <p>Responsibilities</p>
+                        <ul class="works__list">
+                            <li>Developed and implemented zero-dependency solution.</li>
+                            <li>Writing unit tests and basic documentation.</li>
+                            <li>Performance testing using AutoCannon.</li>
+                        </ul>
+                    </div>
+                    <div class="works__row">
+                        <p>Stack</p>
+                        <p>NodeJS, Express</p>
+                    </div>
+                </div>
 
-      </div>
-      <div class="skills__container container">
-        <div class="skills__title title">Soft skills</div>
-        <ul class="skills__list">
-          <li>Leadership</li>
-          <li>Responsible</li>
-          <li>Mindfulness</li>
-          <li>Analytical thinking and assessment</li>
-          <li>Learnability and adaptability</li>
-          <li>Communication and teamwork</li>
-        </ul>
-      </div>
-      <div class="skills__container container">
-        <div class="skills__title title">Achievements</div>
-        <ul class="skills__list">
-          <li>Training at the IT Startup Development Center 1991 Startup Course.</li>
-          <li>Participation in the IT Startup Development Center hackathon 1991 Startup Course</li>
-          <li>Development of a startup "Hometop" - a platform for online rental housing.</li>
-          <li>Developing jam games at itch.io.</li>
-        </ul>
-      </div>
-    </div>
+                <div class="works__title title">
+                    Refactored and maintained a large-scale application for managing marketing campaigns.
+                </div>
+                <div class="works__container container">
+                    <div class="works__row">
+                        <p>Description</p>
+                        <p>Responsible for maintaining a legacy PHP application without prior PHP experience, undertaking comprehensive improvements to stabilize and enhance main features of the application.</p>
+                    </div>
+                    <div class="works__row">
+                        <p>Project role</p>
+                        <p>Backend Engineer</p>
+                    </div>
+                    <div class="works__row">
+                        <p>Responsibilities</p>
+                        <ul class="works__list">
+                            <li>Created and managed technical debt tickets to prioritize and resolve long-standing issues.</li>
+                            <li>Conducted extensive root-cause analyses, technical investigations, and spikes to deepen understanding of the codebase.</li>
+                            <li>Documented critical insights and maintenance processes to support ongoing stability.</li>
+                            <li>Performed targeted refactoring to improve code structure and reduce future maintenance complexity.</li>
+                            <li>Built reusable HTTP client wrapper and result handling utilities to simplify API requests and response processing.</li>
+                            <li>Developed a factory pattern for flexible and consistent HTTP client instantiation.</li>
+                            <li>Created a robust logging utility to improve debugging and system monitoring with DataDog.</li>
+                        </ul>
+                    </div>
+                    <div class="works__row">
+                        <p>Stack</p>
+                        <p>PHP7.4, Laravel 5, MySQL, Redis, DataDog</p>
+                    </div>
+                </div>
 
-    <!-- works -->
-    <div class="works">
+                <div class="works__title title">
+                    Integration with distributed marketing platform to streamline and automate digital campaign management
+                </div>
+                <div class="works__container container">
+                    <div class="works__row">
+                        <p>Description</p>
+                        <p>Optimized integration with a distributed marketing platform by enhancing data synchronization, improving system reliability, and identifying root causes of key issues.</p>
+                    </div>
+                    <div class="works__row">
+                        <p>Project role</p>
+                        <p>Backend Engineer</p>
+                    </div>
+                    <div class="works__row">
+                        <p>Responsibilities</p>
+                        <ul class="works__list">
+                            <li>Refined data sync processes to ensure accuracy and consistency across systems.</li>
+                            <li>Improved code structure and efficiency through targeted refactoring efforts.</li>
+                            <li>Maintained robust integration workflows, monitoring and troubleshooting to support seamless operation.</li>
+                            <li>Developed a caching mechanism to store hashed payload values, cutting redundant API requests.</li>
+                        </ul>
+                    </div>
+                    <div class="works__row">
+                        <p>Stack</p>
+                        <p>NodeJS, Express, Redis, PubSub, DataDog</p>
+                    </div>
+                </div>
 
-      <div class="works__title title">
-        Develop browser games
-        <a href="https://jayb19.itch.io">
-          https://jayb19.itch.io
-        </a>
-      </div>
-      <div class="works__container container">
-        <div class="works__row">
-          <p>Description</p>
-          <p>Small indie games created during ithc.io jam for more coding practice</p>
-        </div>
-        <div class="works__row">
-          <p>Project role</p>
-          <p>Software Engineer</p>
-        </div>
-        <div class="works__row">
-          <p>Responsibilities</p>
-          <ul class="works__list">
-            <li>implementing UI</li>
-            <li>implementing application logic</li>
-            <li>testing application</li>
-          </ul>
-        </div>
-        <div class="works__row">
-          <p>Tools & Technologies</p>
-          <p>JavaScript, NodeJS, Phaser3, GraphicsGale</p>
-        </div>
-      </div>
+                <div class="works__title title">
+                    Automated dev-tools to optimize workflow
+                </div>
+                <div class="works__container container">
+                    <div class="works__row">
+                        <p>Description</p>
+                        <p>Developed automation scripts for refactoring, GCP log analysis, and data corruption detection.</p>
+                    </div>
+                    <div class="works__row">
+                        <p>Project role</p>
+                        <p>Developer</p>
+                    </div>
+                    <div class="works__row">
+                        <p>Responsibilities</p>
+                        <ul class="works__list">
+                            <li>CLI application designed for seamless navigation among web services such as Datadog, GCP, Spinnaker, and GitHub.</li>
+                            <li>Autorefactoring script that replaces all API calls with a custom HttpClient wrapper in a legacy PHP project.</li>
+                            <li>Script for automatic injection of custom Logger calls, facilitating easier detection of utilized methods in a legacy PHP project.</li>
+                            <li>Script to detect possible data corruption and generate spreadsheed(CSV) with results.</li>
+                            <li>And many others...</li>
+                        </ul>
+                    </div>
+                    <div class="works__row">
+                        <p>Stack</p>
+                        <p>JavaScript, Bash, Lua, Rust</p>
+                    </div>
+                </div>
 
-      <div class="works__title title">
-        React weather application
-        <a href="https://darkgraycat.github.io/weather-app/">
-          https://darkgraycat.github.io/weather-app
-        </a>
-      </div>
-      <div class="works__container container">
-        <div class="works__row">
-          <p>Description</p>
-          <p>React application created during education at Beetroot Academy</p>
-        </div>
-        <div class="works__row">
-          <p>Project role</p>
-          <p>WebUI</p>
-        </div>
-        <div class="works__row">
-          <p>Responsibilities</p>
-          <ul class="works__list">
-            <li>UX\UI</li>
-            <li>Write code</li>
-          </ul>
-        </div>
-        <div class="works__row">
-          <p>Tools & Technologies</p>
-          <p>React, Webpack, HTML, CSS, Sass, Git</p>
-        </div>
-      </div>
-
-      <div class="works__title title">
-        Landing pages
-        <a href="https://darkgraycat.github.io/ba-exam-1/">
-          https://darkgraycat.github.io/ba-exam-1
-        </a>
-        <a href="https://darkgraycat.github.io/cahee/">
-          https://darkgraycat.github.io/cahee
-        </a>
-      </div>
-      <div class="works__container container">
-        <div class="works__row">
-          <p>Description</p>
-          <p>Landing page markup during education at Beetroot Academy</p>
-        </div>
-        <div class="works__row">
-          <p>Project role</p>
-          <p>WebUI</p>
-        </div>
-        <div class="works__row">
-          <p>Responsibilities</p>
-          <ul class="works__list">
-            <li>markup page from layout</li>
-          </ul>
-        </div>
-        <div class="works__row">
-          <p>Tools & Technologies</p>
-          <p>HTML, CSS, Sass, Git</p>
-        </div>
-      </div>
-
-    </div>
-
-  </main>
-</body>
+            </div>
+    
+        </main>
+    </body>
 
 </html>
