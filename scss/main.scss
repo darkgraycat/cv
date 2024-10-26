@@ -21,16 +21,17 @@ a {
 
 .main {
   margin: 0 auto;
+  padding: 0px 20px;
   width: 100%;
-  max-width: 800px;
+  max-width: 1200px;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.4rem;
   padding-bottom: 20px;
 
-  @media (max-width: 80px) {
+  @media (max-width: 600px) {
     font-size: 14px;
-    max-width: 600px;
+    max-width: 400px;
     * {
       flex-wrap: wrap;
       flex-direction: column;
@@ -64,13 +65,13 @@ a {
   &__container {}
   &__title {}
   &__name {
-    font-weight: bold;
-    margin-left: 10px;
+    margin: 0px;
+    background-color: #66f;
   }
   &__img {
     width: 200px;
     height: auto;
-    margin: 0 auto;
+    margin: 0px auto;
   }
 }
 
@@ -110,6 +111,7 @@ a {
     width: 100%;
     &>:nth-child(1) {
       width: 30%;
+      font-weight: bold;
     }
     &>:nth-child(2) {
       width: 70%;
