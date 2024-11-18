@@ -79,7 +79,7 @@ a {
   @include flex(row, space-between, flex-start);
   gap: 10px;
   &__container {
-    flex: 1 1 30%;
+    flex: 1 1 33%;
   }
   >:nth-child(3) {
     flex: 1 1 40%;
