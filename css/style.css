@@ -79,7 +79,7 @@ a {
   gap: 10px;
 }
 .skills__container {
-  flex: 1 1 30%;
+  flex: 1 1 33%;
 }
 .skills > :nth-child(3) {
   flex: 1 1 40%;
