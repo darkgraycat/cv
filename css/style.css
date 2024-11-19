@@ -13,6 +13,7 @@ html, body {
 
 a {
   text-decoration: none;
+  font-weight: 600;
   color: #66f;
 }
 
@@ -66,7 +67,7 @@ a {
   background-color: #66f;
 }
 .header__img {
-  width: 200px;
+  width: 250px;
   height: auto;
   margin: 0px auto;
 }
@@ -122,6 +123,41 @@ a {
   width: 70%;
 }
 .works__list {
+  list-style: square;
+  margin-left: 30px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.projects a {
+  float: right;
+}
+.projects__container {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.projects__container > :nth-child(even) {
+  background-color: #eef;
+}
+.projects__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.projects__row > :nth-child(1) {
+  width: 30%;
+  font-weight: bold;
+}
+.projects__row > :nth-child(2) {
+  width: 70%;
+}
+.projects__list {
   list-style: square;
   margin-left: 30px;
 }
