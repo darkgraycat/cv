@@ -16,7 +16,13 @@ html, body {
 
 a {
   text-decoration: none;
+  font-weight: 600;
   color: #66f;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: #99f;
 }
 
 .main {
@@ -69,7 +75,7 @@ a {
     background-color: #66f;
   }
   &__img {
-    width: 200px;
+    width: 250px;
     height: auto;
     margin: 0px auto;
   }
@@ -94,6 +100,40 @@ a {
 }
 
 .works {
+  @include flex(column, flex-start, center);
+
+  a {
+    float: right;
+  }
+
+  &__container {
+    width: 100%;
+    padding-bottom: 20px;
+    &>:nth-child(even) {
+      background-color: #eef;
+    }
+  }
+  &__title {}
+  &__row {
+    @include flex(row, flex-start, flex-start);
+    width: 100%;
+    &>:nth-child(1) {
+      width: 30%;
+      font-weight: bold;
+    }
+    &>:nth-child(2) {
+      width: 70%;
+    }
+  }
+
+  &__list {
+    list-style: square;
+    margin-left: 30px;
+  }
+
+}
+
+.projects {
   @include flex(column, flex-start, center);
 
   a {
