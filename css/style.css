@@ -85,8 +85,10 @@ a {
   flex: 1 1 40%;
 }
 .skills__list {
+  width: 100%;
   list-style: square;
   margin-left: 20px;
+  column-count: 3;
 }
 
 .works {
