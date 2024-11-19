@@ -86,8 +86,10 @@ a {
   }
   &__title {}
   &__list {
+    width: 100%;
     list-style: square;
     margin-left: 20px;
+    column-count: 3;
   }
 }
 
